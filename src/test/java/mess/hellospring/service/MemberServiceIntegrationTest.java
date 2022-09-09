@@ -1,9 +1,7 @@
 package mess.hellospring.service;
 
 import mess.hellospring.domain.Member;
-import mess.hellospring.domain.MemoryMemberRepository;
 import mess.hellospring.repository.MemberRepository;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -23,7 +21,7 @@ class MemberServiceIntegrationTest {
     void 회원가입() {
         //given
         Member member = new Member();
-        member.setName("spring1");
+        member.setName("spring");
         //when
         Long saveId = memberService.join(member);
         //then

@@ -1,5 +1,6 @@
-package mess.hellospring.domain;
+package mess.hellospring.repository;
 
+import mess.hellospring.domain.Member;
 import mess.hellospring.repository.MemberRepository;
 import org.springframework.stereotype.Repository;
 

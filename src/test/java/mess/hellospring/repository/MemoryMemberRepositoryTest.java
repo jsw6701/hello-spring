@@ -2,7 +2,6 @@ package mess.hellospring.repository;
 
 
 import mess.hellospring.domain.Member;
-import mess.hellospring.domain.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 

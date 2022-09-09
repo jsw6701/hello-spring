@@ -1,11 +1,10 @@
 package mess.hellospring.service;
 
 import mess.hellospring.domain.Member;
-import mess.hellospring.domain.MemoryMemberRepository;
+import mess.hellospring.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
